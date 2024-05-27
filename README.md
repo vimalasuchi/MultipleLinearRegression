@@ -1,5 +1,6 @@
 # Project Name
 > Multiple Linear Regression Model for Bike Analysis by Vimala using both Linear Regression manually and RFE.
+> 
 > I have build 2 predicted models and uploaded two relevant pythonnotebook files for the same.
 > 
 
@@ -54,26 +55,26 @@ In this file I have used the automated Recursive Feature Elimination method to c
 10. Calculate the r2
 
 ## Conclusions
+
 As per our final Model, the below predictor variables influences bike booking :
 
 Positive influence
 
 1. temp
-2. Seasonsummer
-3. Seasonwinter
-4. Weakday_mon
-5. workingday_yes_workingday
-6. Year2019
-7. mon_aug
-8. mon_sep
+2. yr_2019
+3. season_winter
+4. mon_sep
+5. season_summer
+6. weekday_mon
+7. workingday_yes_workingday
+8. mon_aug 
 9. mon_oct
 
-
 Negative Influence
-1. windspeed
-2. hum
-3. Weathersit_Mist_Cloudy
-4. Weathersit_Light_Snow
+1. weathersit_Mist_Cloudy
+2. windspeed
+3. hum
+4. Weathersit_LightSnow_Rain
 
 **The R2 values are **
 
